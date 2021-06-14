@@ -1,8 +1,8 @@
 <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<p>Welcome to {{title}}, <a href="/new">Post a new message.</a></p>
 <div>
     {{#each messages}}
-    <div>
+    <div class="post">
         <strong>{{this.user}}</strong>
         <p>{{this.text}}</p>
         <sub>{{this.added}}</sub>

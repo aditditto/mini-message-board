@@ -1,8 +1,23 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: aliceblue;
 }
 
 a {
   color: #00B7FF;
+}
+
+.post {
+  background-color: #faf0ff;
+  width: 25em;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0 0 1.5em -1em black;
+}
+
+form > * {
+  display: block;
+  margin: 10px;
+  margin-left: 0;
 }
